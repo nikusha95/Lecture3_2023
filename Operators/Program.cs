@@ -63,7 +63,6 @@ x1 *= 3;
 Console.WriteLine(x1);
 
 int a = 20, b = 30;
-//cast
 Console.WriteLine((double)a / b);
 
 
@@ -71,3 +70,5 @@ string s = null;
 
 s ??= "asd"; //s = s == null ? "asd" : s;
 Console.WriteLine(s);
+
+int test = 10;
